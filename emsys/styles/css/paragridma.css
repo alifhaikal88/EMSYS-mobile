@@ -430,6 +430,9 @@ abbr {
     padding: 0px 20px;
 }
 
+.container2, .fixContainer {
+}
+
 .row {
     width: 100%;
     margin: 0 auto;

@@ -72,6 +72,10 @@ body {
     height: 70px;
 }
 
+.fixed-header-clear2 {
+    height: 37px;
+}
+
 .header-black {
     background-color: rgba(0, 0, 0, 0.85);
     margin-bottom: 20px;

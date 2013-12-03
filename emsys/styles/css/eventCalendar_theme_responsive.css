@@ -66,7 +66,6 @@ body {
 .eventsCalendar-currentTitle {
     line-height: 25px;
     background-color: #2C3E50;
-    outline: 1px solid #138DA5;
     border: 1px solid #E3E3E3;
     border-width: 1px 0;
 }
@@ -109,6 +108,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 14px;
+    color: #000000;
     font-weight: bold;
     border-bottom: solid 1px #BCBCBC;
 }
@@ -169,7 +169,7 @@ li.eventsCalendar-day.today a:hover {
 }
 
 .eventsCalendar-daysList li.dayWithEvents a {
-    background: #89B814;
+    background: #4097C9;
     /*box-shadow:inset 5px 5px 10px #698B10;
     text-shadow: 2px 2px 2px #698B10;*/
     color: #fff;
