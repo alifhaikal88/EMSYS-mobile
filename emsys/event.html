@@ -41,6 +41,12 @@
     <script type="text/javascript" src="scripts/framework.js"></script>
     <script type="text/javascript" src="scripts/framework.launcher.js"></script>
 
+    <script type="text/javascript">
+        function swapStyleSheet(sheet) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+    </script>
+
 </head>
 <body>
 
@@ -84,11 +90,11 @@
                 </div>
                 <div class="sidebar-decoration"></div>
                 <div class="nav-item">
-                    <a href="#" class="features-nav submenu-deploy">Features<em class="unselected-nav"></em></a>
+                    <a href="#" class="features-nav submenu-deploy">Features<em></em></a>
 
-                    <div class="nav-item-submenu">
+                    <div class="nav-item-submenu active-submenu">
                         <div class="sidebar-decoration"></div>
-                        <a href="event.html">Introduction <em class="unselected-sub-nav"></em></a>
+                        <a href="event.html">Introduction <em class="selected-sub-nav"></em></a>
                         <a href="type.html">Typography <em class="unselected-sub-nav"></em></a>
                         <a href="jquery.html">jQuery <em class="unselected-sub-nav"></em></a>
                     </div>
@@ -100,7 +106,7 @@
                 </div>
                 <div class="sidebar-decoration"></div>
                 <div class="nav-item">
-                    <a href="contact.html" class="contact-nav">Contact<em class="selected-nav"></em></a>
+                    <a href="contact.html" class="contact-nav">Contact<em class="unselected-nav"></em></a>
                 </div>
                 <div class="sidebar-decoration"></div>
                 <div class="nav-item">
@@ -138,20 +144,11 @@
 
             <div class="sidebar-breadcrumb">
                 <div class="sidebar-decoration"></div>
-                <p>Let's get social!</p>
+
 
                 <div class="sidebar-decoration"></div>
             </div>
 
-            <div class="navigation-items">
-                <div class="nav-item">
-                    <a href="#" class="facebook-nav">Facebook<em class="link-nav"></em></a>
-                </div>
-                <div class="sidebar-decoration"></div>
-                <div class="nav-item">
-                    <a href="#" class="twitter-nav">Twitter<em class="link-nav"></em></a>
-                </div>
-            </div>
 
             <div class="sidebar-decoration"></div>
 
@@ -164,35 +161,17 @@
     <div id="content" class="page-content">
         <div class="content-controls solid-color fixed-header">
             <a href="#" class="deploy-sidebar"></a>
-            <em class="content-title">Get in touch!</em>
+            <em class="content-title">ALL CALENDARS</em>
             <a href="contact.html" class="deploy-contact"></a>
         </div>
         <div class="fixed-header-clear"></div>
 
         <div class="content">
             <div class="decoration"></div>
-            <div class="one-half-responsive">
-                <h4>Send us an email!</h4>
-
-                <p>Use the form to send us a message, All of your feedback is our concern</p>
-
-                <div class="container no-bottom">
-                    <div class="contact-form no-bottom">
-                        <div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
-                            <div class="big-notification green-notification">
-                                <h3 class="uppercase">Message Sent </h3>
-                                <a href="#" class="close-big-notification">x</a>
-
-                                <p>Your message has been successfuly sent. Please allow up to 48 hours for a reply!
-                                    Thank
-                                    you!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="container no-bottom">
             </div>
             <div class="decoration hide-if-responsive"></div>
-            <div class="decoration"></div>
+            <div class="clear"></div>
         </div>
 
         <div class="content">
