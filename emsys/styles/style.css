@@ -26,7 +26,7 @@ body {
 }
 
 .page-sidebar {
-    background-image: url(../images/misc/menu-bg.png);
+    background-image: url(../images/misc/menu-bg2.jpg);
     background-repeat: repeat;
     background-size: 75px 75px;
     width: 262px;
@@ -172,7 +172,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.125);
 }
 
 /*Adjustments for tablets*/
@@ -420,7 +420,7 @@ and (width: 798px) {
 .sidebar-decoration {
     width: 260px;
     height: 2px;
-    background-color: #191919;
+    background-color: /* #191919  #e69305 #3b4043 #000000 */ #60070b;
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }
 
